@@ -1,0 +1,17 @@
+#To save code and push to Git
+
+$ git add .
+$ git commit -am "comment"
+$ git push
+
+#Heroku push code 
+
+$ git add .
+$ git commit -am "comment"
+$ git push
+$ git push heroku master
+
+$ heroku login 
+then follow steps
+
+# Heroku url  https://git.heroku.com/umbra.git
