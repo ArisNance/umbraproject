@@ -15,3 +15,25 @@ $ heroku login
 then follow steps
 
 # Heroku url  https://git.heroku.com/umbra.git
+
+# Adding new page route to home controller
+
+class HomeController <
+ApplicationController
+    def index
+    end
+    
+    def about
+    end
+    
+end
+
+#Adding new page route
+
+Rails.application.routes.draw do
+root 'home#index'
+get 'home/about'
+
+end
+
+  
