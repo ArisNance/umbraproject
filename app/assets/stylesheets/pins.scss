@@ -1,3 +1,61 @@
 // Place all the styles related to the pins controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#pins {
+    margin: 0 auto;
+}
+
+.box {
+    margin: 0;
+    width: 100%;
+    margin-top: 100px;
+
+
+}
+
+.box img {
+    width: 100%;
+}
+
+.post-container {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 0 30px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 1px 1px #ddd;
+    -moz-box-shadow: 0 0 1px 1px #ddd;
+    -ms-box-shadow: 0 0 1px 1px #ddd;
+    -o-box-shadow: 0 0 1px 1px #ddd;
+    box-shadow: 0 0 1px 1px #ddd;
+}
+
+.post-option {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 2px;
+    background-color: rgba(255,255,255,.95);
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -ms-border-radius: 2px 2px 0 0;
+    -o-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+

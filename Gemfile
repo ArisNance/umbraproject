@@ -14,6 +14,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'paperclip', '~> 4.3', '>= 4.3.5'
 gem 'aws-sdk', '~> 2.2', '>= 2.2.16'
+gem 'masonry-rails', '~> 0.2.4'
+gem 'jquery-turbolinks', '~> 2.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
